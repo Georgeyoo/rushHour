@@ -30,17 +30,17 @@
  
     "production": {
  
-        "username": "l8c1qu5xsbgggjo7",
+        "username": "p64dpxlus8s9l4nf",
  
-        "password": "qsah64523c0upwx0",
+        "password": "h8pvdgx5thkm6ft8",
  
-        "database": "d12xwstql4rb75uh",
+        "database": "hhew7poiw8vfm7po",
 
         "port": 3306,
  
         "host": "l6slz5o3eduzatkw.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
 
-        "use_env_variable": "JAWSDB_URL",
+        "use_env_variable": "mysql://p64dpxlus8s9l4nf:h8pvdgx5thkm6ft8@l6slz5o3eduzatkw.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/hhew7poiw8vfm7po",
  
         "dialect": "mysql"
  
