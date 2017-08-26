@@ -4,22 +4,23 @@
   "description": "### Table of Contents 1. Dependencies 2. Technologies 3. Description 4. Use 5. Credits",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "engines": {
     "node": "7.8.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Thgi/rushHour.git"
+    "url": "git+https://github.com/georgeyoo/rushHour.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Thgi/rushHour/issues"
+    "url": "https://github.com/georgeyoo/rushHour/issues"
   },
-  "homepage": "https://github.com/Thgi/rushHour#readme",
+  "homepage": "https://github.com/georgeyoo/rushHour#readme",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.17.2",

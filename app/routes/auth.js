@@ -19,7 +19,9 @@ module.exports = function(app, passport) {
         }
  
     ));
-
+app.get("/", function(req, res) {
+  res.redirect("/signin");
+})
 // Get request to obtain Appointments table data for insertion to dashboard calendar
 
     app.get("/api/all", function(req, res) {

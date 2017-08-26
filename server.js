@@ -21,13 +21,13 @@ app.use(passport.initialize());
  
 app.use(passport.session()); // persistent login sessions
 
-app.use(express.static(process.cwd() + "/public"));
+app.use(express.static(process.cwd() + "/public", {index: ""}));
  
-app.get('/', function(req, res) {
+// app.get('/', function(req, res) {
  
-    res.send('Welcome to Passport with Sequelize');
+//     res.redirect('/signin');
  
-});
+// });
 
 
 
