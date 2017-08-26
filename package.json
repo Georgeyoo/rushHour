@@ -4,7 +4,6 @@
   "description": "### Table of Contents 1. Dependencies 2. Technologies 3. Description 4. Use 5. Credits",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "engines": {
